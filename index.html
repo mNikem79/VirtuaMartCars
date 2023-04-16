@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="normalize.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://unpkg.com/imask"></script>
+</head>
+<body>
+  <main>
+    <!-- Шапка сайта -->
+    <header class="header">
+      <img class="logo" src="./assets/logo.png" alt="Logo">
+
+      <div class="menu">
+        <div class="menu_item">Главная</div>
+        <div class="menu_item">Статьи</div>
+        <div class="menu_item">О нас</div>
+        <div class="menu_item">Выход</div>
+      </div>
+
+      <div class="menu_mob" data-open="0">
+        <div class="trigger"> = </div>
+        <div class="menu_mob_wrapper">
+          <div class="menu_item">Главная</div>
+          <div class="menu_item">Статьи</div>
+          <div class="menu_item">О нас</div>
+          <div class="menu_item">Выход</div>
+        </div>
+      </div>
+
+    </header>
+
+    <article>
+      <h1>Заголовок</h1>
+      <div class="article_text">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium doloribus asperiores esse provident repudiandae doloremque? Dolore, dolorum exercitationem itaque numquam tempore magni aspernatur alias ad illum, adipisci soluta placeat tenetur.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium doloribus asperiores esse provident repudiandae doloremque? Dolore, dolorum exercitationem itaque numquam tempore magni aspernatur alias ad illum, adipisci soluta placeat tenetur.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium doloribus asperiores esse provident repudiandae doloremque? Dolore, dolorum exercitationem itaque numquam tempore magni aspernatur alias ad illum, adipisci soluta placeat tenetur.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium doloribus asperiores esse provident repudiandae doloremque? Dolore, dolorum exercitationem itaque numquam tempore magni aspernatur alias ad illum, adipisci soluta placeat tenetur.</p>
+      </div>
+      <img src="./assets/bg.jpeg" alt="бэкграунд">
+    </article>
+
+    <div class="cards">
+      <div class="card_item">
+        <img src="./assets/bg.jpeg" alt="Карточка">
+        <h3>Товар 1</h3>
+        <div class="action">
+          <p class="price">999 р</p>
+          <button class="btn_order">Купить</button>
+        </div>        
+      </div>
+      <div class="card_item">
+        <img src="./assets/bg.jpeg" alt="Карточка">
+        <h3>Товар 2</h3>
+        <div class="action">
+          <p class="price">999 р</p>
+          <button class="btn_order">Купить</button>
+        </div>        
+      </div>
+      <div class="card_item">
+        <img src="./assets/bg.jpeg" alt="Карточка">
+        <h3>Товар 3</h3>
+        <div class="action">
+          <p class="price">999 р</p>
+          <button class="btn_order">Купить</button>
+        </div>        
+      </div>
+      <div class="card_item">
+        <img src="./assets/bg.jpeg" alt="Карточка">
+        <h3>Товар 4</h3>
+        <div class="action">
+          <p class="price">999 р</p>
+          <button class="btn_order">Купить</button>
+        </div>        
+      </div>
+      <div class="card_item">
+        <img src="./assets/bg.jpeg" alt="Карточка">
+        <h3>Товар 1</h3>
+        <div class="action">
+          <p class="price">999 р</p>
+          <button class="btn_order">Купить</button>
+        </div>        
+      </div>
+      <div class="card_item">
+        <img src="./assets/bg.jpeg" alt="Карточка">
+        <h3>Товар 5</h3>
+        <div class="action">
+          <p class="price">999 р</p>
+          <button class="btn_order">Купить</button>
+        </div>        
+      </div>
+      <div class="card_item">
+        <img src="./assets/bg.jpeg" alt="Карточка">
+        <h3>Товар 6</h3>
+        <div class="action">
+          <p class="price">999 р</p>
+          <button class="btn_order">Купить</button>
+        </div>        
+      </div>
+      <div class="card_item">
+        <img src="./assets/bg.jpeg" alt="Карточка">
+        <h3>Товар 7</h3>
+        <div class="action">
+          <p class="price">999 р</p>
+          <button class="btn_order">Купить</button>
+        </div>        
+      </div>
+    </div>
+
+  </main>
+
+  <div class="modal">
+    <div class="modal_back"></div>
+    <div class="modal_wrapper">
+      <div class="modal_close">X</div>
+      <h2>Заказать</h2>
+      <p class="modal_desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt vero illum facilis cupiditate blanditiis, accusantium dignissimos ea similique ex hic eveniet molestiae delectus nostrum? Optio adipisci velit impedit nam temporibus?</p>
+      <input type="text" name="fio" placeholder="Введите ваше имя">
+      <input type="text" maxlength="10" name="phone" placeholder="Введите ваш номер телефона">
+      <button class="btn_order">Заказать</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
